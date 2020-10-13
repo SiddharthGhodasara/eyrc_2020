@@ -1,0 +1,6 @@
+<launch>
+  <!-- Launching Turtlesim-->
+  <node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node"/>
+  <!-- Launching node_turtle_revolve to make the robot move in a circle-->
+  <node name="node_turtle_revolve" pkg="pkg_task0" type="node_turtle_revolve.py" output="screen"/>
+</launch>
