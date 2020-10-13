@@ -6,11 +6,12 @@ TEAM MEMBERS: SIDDHARTH GHODASARA (TEAM LEADER)
               GAURAV SETHIA
 	      HARISH GURAGOL
 	      VINEET RANJAN
+	      
 CODE DESCRIPTION: The following code is written to move the turtle move in a circle and stop after one complete revolution
 
-PUBLISHER: /turtle1/cmd_vel
+PUBLISHER: "/turtle1/cmd_vel"     MESSAGE TYPE: geometry_msgs/Twist
 
-SUBSCRIBER: /turtle1/pose
+SUBSCRIBER: "/turtle1/pose"       MESSAGE TYPE: turtlesim/Pose
 
 CLASS VARIABLES: t0 - Stores the start time 
                  t1 - Stores the current time
