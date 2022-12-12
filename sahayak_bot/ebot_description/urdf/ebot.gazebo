@@ -92,11 +92,11 @@
     </sensor>
   </gazebo> -->
 
-<!-- using CPU -->
+<!-- using CPU 0.5 to 20m-->
   <gazebo reference="laser">
     <sensor type="ray" name="head_rplidar_sensor">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>

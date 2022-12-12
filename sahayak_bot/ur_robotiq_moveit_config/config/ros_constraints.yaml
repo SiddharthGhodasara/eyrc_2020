@@ -1,0 +1,7 @@
+joint_constraint:
+  name: shoulder_constraints
+  constraints:
+  - type: joint
+    joint_name: shoulder_lift_joint
+    bounds: [0.0, 3.1]
+    weight: 1.0

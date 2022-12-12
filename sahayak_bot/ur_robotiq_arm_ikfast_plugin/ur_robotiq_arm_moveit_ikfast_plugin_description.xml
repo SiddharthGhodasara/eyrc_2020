@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library path="lib/libur_robotiq_arm_moveit_ikfast_plugin">
+  <class base_class_type="kinematics::KinematicsBase" name="ur_robotiq_arm/IKFastKinematicsPlugin" type="ur_robotiq_arm::IKFastKinematicsPlugin">
+    <description>IKFast61 plugin for closed-form kinematics of ur_robotiq arm</description>
+  </class>
+</library>
